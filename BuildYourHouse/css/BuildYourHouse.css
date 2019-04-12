@@ -530,11 +530,46 @@ button:focus{
 	background-repeat: no-repeat;
 }
 
-.item4
+footer{
+	background-color: #004d3f;
+	padding: 20px 0;
+}
 
+.footextmain{
+	color: #011915;
+	padding: 15px 0;
+	font-size: 15px;
+}
 
+.footext1 a{
+	color: #b2b2b2;
+}
 
+.footext1 a:hover{
+	color: #b2b2b2;
+}
 
+.footext3 a{
+	color: #b2b2b2;
+}
+
+.footext3 a:hover{
+	color: #b2b2b2;
+}
+
+.footext1{
+	padding: 15px 0;
+}
+
+.footext3{
+	padding: 5px 0;
+}
+
+.footer{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
 
 
 
@@ -548,6 +583,7 @@ button:focus{
 		width: 91.666666%!important;
 	}
 }
+
 @media (max-width: 991px){
 	h1{
 		line-height: 0.7!important;
@@ -589,6 +625,44 @@ button:focus{
 		padding-top: 27px;
 	}
 }
-@media (max-width: px){
-
+@media (max-width: 1024px){
+	h1{
+		line-height: 0.7!important;
+	}
+	h2,h3{
+		line-height: 0.9!important;
+	}
+	.h-comp{
+		display: none;
+	}
+	.h-adap{
+		display: block!important;
+	}
+	.head-div{
+		width: 100%!important;
+	}
+	.order{
+		padding-left: 10px;
+	}
+	.sign-in{
+		padding: 0 10px;
+	}
+	.sign-in i{
+		font-size: 18px;
+	}
+	.search-icon{
+		padding-right: 20px;
+	}
+	.search-icon i{
+		font-size: 18px;
+	}
+	.i-img img{
+		height: 180px;
+	}
+	.info h1 a{
+		font-size: 18px;
+	}
+	.pd-t{
+		padding-top: 27px;
+	}
 }
